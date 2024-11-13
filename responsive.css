@@ -1,0 +1,171 @@
+/* General Styling */
+.logo {
+    width: 19px;
+    height: 16px;
+  }
+  
+  .logo img {
+    width: 100%;
+  }
+  
+  header {
+    position: sticky;
+    width: 100%; /* Full width for responsiveness */
+    height: 72px;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    box-sizing: border-box;
+  }
+  
+  header ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+  }
+  
+  header ul a {
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .btn {
+    padding: 7px 16px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px; /* Adds padding to maintain structure */
+  }
+  
+  .text {
+    width: 610px;
+    box-sizing: border-box;
+    padding: 60px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .text h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #aaa;
+  }
+  
+  .invite-button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .invite-button span {
+    margin-left: 8px;
+    font-size: 18px;
+  }
+  
+  .image {
+    width: 823px;
+    height: 650px;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .shape {
+    width: 6px;
+    height: 304px;
+    background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  
+  /* Responsive Styling */
+  
+  /* Tablet View */
+  @media (max-width: 1024px) {
+    header {
+      padding: 20px 50px;
+    }
+  
+    .container {
+      padding: 0 30px;
+    }
+  
+    .text {
+      width: 55%; /* Slightly smaller text box */
+      padding: 40px;
+    }
+  
+    .image {
+      width: 40%; /* Adjust image width */
+    }
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px 30px;
+    }
+  
+    header ul {
+      gap: 20px;
+      margin-top: 10px;
+    }
+  
+    .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+  
+    .text, .image {
+      width: 100%;
+    }
+  
+    .text h1 {
+      font-size: 1.5rem;
+    }
+  
+    .text p {
+      font-size: 0.9rem;
+    }
+  
+    .btn, .invite-button {
+      font-size: 0.8rem;
+    }
+  
+    .shape {
+      display: none; /* Hide shape on small screens */
+    }
+  }
+  

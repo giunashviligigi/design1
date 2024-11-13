@@ -1,0 +1,108 @@
+.logo {
+  width: 19px;
+  height: 16px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+header {
+  position: sticky;
+  width: 1440px;
+  height: 72px;
+  top: 0;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 150px;
+}
+
+header ul {
+  display: flex;
+  gap: 50px;
+  margin: 0 auto; /* This centers the items within the ul */
+  list-style: none;
+  padding: 0;
+}
+
+header ul a {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.btn {
+  padding: 7px 16px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+}
+.container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0,auto;
+    position: relative;
+}
+
+.text {
+  width: 610px;
+  box-sizing: border-box;
+  padding: 60px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center; 
+  
+}
+
+.text h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: white;
+}
+
+.text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #aaa;
+}
+
+/* Invite Button */
+.invite-button {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+}
+
+.invite-button span {
+  margin-left: 8px;
+  font-size: 18px;
+}
+.image {
+    height: 650px;
+    width: 823px;
+    
+}
+
+.image img {
+    max-width: 100%;
+    height: auto; 
+}
+.shape{
+  width: 6px;
+  height: 304px;
+  background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+  position: absolute;
+  top: 50%; 
+  left: 10px; 
+  transform: translateY(-50%); 
+}
